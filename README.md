@@ -109,7 +109,6 @@ textColor = "#ffffff"
 
 ## 🧠 Future Improvements
 
-- ✅ Deployed on [Streamlit Cloud](https://water-quality-prediction-aicte.streamlit.app/)  
 - Add CSV upload for batch predictions   
 - Enhance UI with Lottie animations or charts  
 - Add feedback form or download button for results  
