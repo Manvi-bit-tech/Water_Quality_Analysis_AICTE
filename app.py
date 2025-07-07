@@ -39,7 +39,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-#  App title and intro
+
+
 st.markdown("""
 <div style='text-align: center; padding: 10px 0'>
     <h1 style='color: #0077b6;'>💧 Water Quality Predictor</h1>
@@ -69,7 +70,7 @@ if st.sidebar.button("🔍 Predict Water Quality"):
 
         st.success("✅ Prediction Complete!")
         st.subheader("📈 Predicted Pollutant Levels:")
-        st.bar_chart(pd.DataFrame([prediction], columns=labels))
+        st.bar_chart(pd.DataFrame([prediction], columns=labels ))
         
         for label, value in zip(labels, prediction):
             st.markdown(f"🔹 **{label}:** `{value:.2f}`")
